@@ -1,32 +1,23 @@
 package com.gliter.app;
 
-import java.awt.PageAttributes.MediaType;
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.List;
 import java.util.Locale;
-
-import javax.xml.ws.WebServiceProvider;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
- import org.springframework.stereotype.Controller;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
- import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
 
 import com.gliter.app.dao.logindao;
 import com.gliter.app.daoimpl.logindaoimpl;
 import com.gliter.app.model.Student_Result;
 import com.gliter.app.model.loginmodel;
-import com.gliter.app.serviceImpl.loginserviceimpl;
 import com.test.cls_test;
 
 /**
